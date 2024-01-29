@@ -8,7 +8,7 @@
       <v-spacer></v-spacer>
 
       <v-btn type="submit" @click="SignOff">
-        cerrar cesion
+        Cerrar sesión
         <v-icon class="ml-4">fas fa-sign-out-alt</v-icon>
       </v-btn>
     </v-app-bar>
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import { mapActions,mapState } from "vuex";
+import { mapActions, mapState } from "vuex";
 export default {
   data: () => ({
     drawer: false,
